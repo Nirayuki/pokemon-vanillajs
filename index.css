@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+header{
+  width: 100%;
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+nav{
+  font-size: 1rem;
+  display: flex;
+  gap: 20px;
+}
+
+nav a{
+  cursor: pointer;
+}
+
+nav a:hover{
+  color: cyan;
+}
+
+.hero{
+  background-image: url("https://wallpapers.com/images/hd/pikachu-4k-and-pokemon-cousins-field-trip-03fs1oq9pudixw79.jpg");
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  gap: 10px;
+  
+}
+
+
+.list-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
